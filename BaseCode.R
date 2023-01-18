@@ -1,0 +1,5 @@
+library(blogdown)
+new_site(theme="wowchemy/starter-academic")
+file.edit("gitignore")
+blogdown::check_site()
+blogdown::config_Rprofile()
