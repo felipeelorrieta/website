@@ -42,7 +42,7 @@ social:
   link: https://github.com/felipeelorrieta
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/
+  link: https://cl.linkedin.com/in/felipe-elorrieta-0165a259
 - icon: cv
   icon_pack: ai
   link: uploads/resume.pdf
