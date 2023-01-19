@@ -47,7 +47,7 @@ social:
   icon_pack: ai
   link: uploads/resume.pdf
 status:
-  icon: ☕️
+  icon: 
 superuser: true
 title: Felipe Elorrieta
 ---
