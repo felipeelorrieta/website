@@ -38,7 +38,7 @@ sections:
     - name: Astro-Statistics
       tag: Deep Learning
     - name: Public Health
-      tag: Demo2
+      tag: Demo
     default_button_index: 0
     filters:
       folders:
