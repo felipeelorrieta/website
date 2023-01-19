@@ -33,6 +33,8 @@ sections:
     buttons:
     - name: All
       tag: '*'
+    - name: iAR package
+      tag: iAR
     - name: Astro-Statistics
       tag: Deep Learning
     - name: Public Health
