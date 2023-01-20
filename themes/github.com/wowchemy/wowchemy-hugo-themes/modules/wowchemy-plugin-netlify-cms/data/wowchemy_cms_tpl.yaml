@@ -7,7 +7,7 @@ public_folder: '/media'
 collections:
   - name: home
     label: "Homepage"
-    folder: 'content/home'
+    folder: 'content/en/home'
     path: '{{slug}}'
     # When specifying a path on a folder collection, media_folder defaults to an empty string, so make it explicit.
     media_folder: '/assets/media'
@@ -76,7 +76,7 @@ collections:
   - name: authors
     label: Authors
     label_singular: Author
-    folder: 'content/authors'
+    folder: 'content/en/authors'
     path: '{{slug}}/_index'
     filter: {field: "cms_exclude"}
     create: true  # Allow users to create new documents in this collection
@@ -156,7 +156,7 @@ collections:
   - name: posts
     label: Posts
     label_singular: Post
-    folder: 'content/post'
+    folder: 'content/en/post'
     path: '{{slug}}/index'
     filter: {field: "cms_exclude"}
     create: true  # Allow users to create new documents in this collection
@@ -212,7 +212,7 @@ collections:
   - name: projects
     label: Projects
     label_singular: Project
-    folder: 'content/project'
+    folder: 'content/en/project'
     path: '{{slug}}/index'
     filter: {field: "cms_exclude"}
     create: true  # Allow users to create new documents in this collection
@@ -284,7 +284,7 @@ collections:
   - name: events
     label: Events
     label_singular: Event
-    folder: 'content/event'
+    folder: 'content/en/event'
     path: '{{slug}}/index'
     filter: {field: "cms_exclude"}
     create: true  # Allow users to create new documents in this collection
@@ -317,7 +317,7 @@ collections:
       - {label: "Event", name: "event", widget: "string"}
       - {label: "Event link", name: "event_url", widget: "string"}
       - {label: "Publish this page on", name: "publishDate", widget: "datetime"}
-      - {label: "Markdown slides (reference a deck in 'content/slides/')", name: "slides", widget: "string", required: false}
+      - {label: "Markdown slides (reference a deck in 'content/en/slides/')", name: "slides", widget: "string", required: false}
       - label: "Draft"
         name: "draft"
         widget: "boolean"
@@ -340,7 +340,7 @@ collections:
         name: "categories"
         required: false
         widget: "list"
-      - label: "Projects (reference projects in 'content/project/')"
+      - label: "Projects (reference projects in 'content/en/project/')"
         name: "projects"
         required: false
         widget: "list"
@@ -365,7 +365,7 @@ collections:
   - name: publications
     label: Publications
     label_singular: Publication
-    folder: 'content/publication'
+    folder: 'content/en/publication'
     path: '{{slug}}/index'
     filter: {field: "cms_exclude"}
     create: true  # Allow users to create new documents in this collection
@@ -423,7 +423,7 @@ collections:
         name: "projects"
         required: false
         widget: "list"
-      - {label: "Markdown slides (reference a deck in 'content/slides/')", name: "slides", widget: "string", required: false}
+      - {label: "Markdown slides (reference a deck in 'content/en/slides/')", name: "slides", widget: "string", required: false}
       - label: "Featured Image"
         name: "image"
         required: false
@@ -447,7 +447,7 @@ collections:
   - name: slides
     label: Slides
     label_singular: Slides
-    folder: 'content/slides'
+    folder: 'content/en/slides'
     path: '{{slug}}/index'
     filter: {field: "cms_exclude"}
     create: true  # Allow users to create new documents in this collection
@@ -491,7 +491,7 @@ collections:
   - name: pages
     label: "Pages"
     files:
-      - file: "content/privacy.md"
+      - file: "content/en/privacy.md"
         label: "Privacy Policy"
         name: "privacy"
         fields:
@@ -505,7 +505,7 @@ collections:
             widget: "boolean"
             default: false
           - {label: "Body", name: "body", widget: "markdown"}
-      - file: "content/terms.md"
+      - file: "content/en/terms.md"
         label: "Terms"
         name: "terms"
         fields:
