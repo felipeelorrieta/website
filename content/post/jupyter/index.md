@@ -38,8 +38,8 @@ Alternatively, install JupyterLab with `pip3 install jupyterlab`.
 Run the following commands in your Terminal, substituting `<MY-WEBSITE-FOLDER>` and `<SHORT-POST-TITLE>` with the file path to your Academic website folder and a short title for your blog post (use hyphens instead of spaces), respectively:
 
 ```bash
-mkdir -p <MY-WEBSITE-FOLDER>/content/en/post/<SHORT-POST-TITLE>/
-cd <MY-WEBSITE-FOLDER>/content/en/post/<SHORT-POST-TITLE>/
+mkdir -p <MY-WEBSITE-FOLDER>/content/post/<SHORT-POST-TITLE>/
+cd <MY-WEBSITE-FOLDER>/content/post/<SHORT-POST-TITLE>/
 jupyter lab index.ipynb
 ```
 

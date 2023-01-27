@@ -9,7 +9,11 @@ en:
   contentDir: content/en
 
 # Uncomment the lines below to configure your website in a second language.
+<<<<<<< HEAD
 es:
+=======
+sp:
+>>>>>>> 71c95db8cbc5add7a4c817251375343959f22ae5
   languageCode: es
   contentDir: content/es
   title: Página de Felipe Elorrieta

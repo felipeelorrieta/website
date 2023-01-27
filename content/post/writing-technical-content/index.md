@@ -341,7 +341,7 @@ renders as
 
 ### Callouts
 
-Academic supports a [shortcode for callouts](https://wowchemy.com/docs/content/en/writing-markdown-latex/#callouts), also referred to as _asides_, _hints_, or _alerts_. By wrapping a paragraph in `{{%/* callout note */%}} ... {{%/* /callout */%}}`, it will render as an aside.
+Academic supports a [shortcode for callouts](https://wowchemy.com/docs/content/writing-markdown-latex/#callouts), also referred to as _asides_, _hints_, or _alerts_. By wrapping a paragraph in `{{%/* callout note */%}} ... {{%/* /callout */%}}`, it will render as an aside.
 
 ```markdown
 {{%/* callout note */%}}
@@ -371,7 +371,7 @@ renders as
 
 ### Icons
 
-Academic enables you to use a wide range of [icons from _Font Awesome_ and _Academicons_](https://wowchemy.com/docs/getting-started/page-builder/#icons) in addition to [emojis](https://wowchemy.com/docs/content/en/writing-markdown-latex/#emojis).
+Academic enables you to use a wide range of [icons from _Font Awesome_ and _Academicons_](https://wowchemy.com/docs/getting-started/page-builder/#icons) in addition to [emojis](https://wowchemy.com/docs/content/writing-markdown-latex/#emojis).
 
 Here are some examples using the `icon` shortcode to render icons:
 
