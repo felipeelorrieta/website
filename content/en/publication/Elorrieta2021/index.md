@@ -8,7 +8,11 @@ authors:
 date: "2021-05-04T00:00:00Z"
 doi: 10.1093/mnras/stab1216
 <<<<<<< HEAD
+<<<<<<< HEAD
 featured: true
+=======
+featured: false
+>>>>>>> 71c95db8cbc5add7a4c817251375343959f22ae5
 =======
 featured: false
 >>>>>>> 71c95db8cbc5add7a4c817251375343959f22ae5
@@ -41,7 +45,10 @@ Create your slides in Markdown - click the *Slides* button to check out the exam
 
 Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 71c95db8cbc5add7a4c817251375343959f22ae5
 
 ---
 abstract: Context. The VISTA Variables in the Vía Láctea (VVV) is a near-IR time-domain survey of the Galactic bulge and southern plane. One of the main goals of this survey is to reveal the 3D structure of the Milky Way through their variable stars. In particular, enormous numbers of RR Lyrae stars have been discovered in the inner regions of the bulge (−8° ≲ b ≲ −1°) by optical surveys such as OGLE and MACHO, but leaving an unexplored window of more than ~47 sq deg (−10.0° ≲ ℓ ≲ + 10.7° and − 10.3° ≲ b ≲ −8.0°) observed by the VVV Survey.
@@ -94,4 +101,7 @@ Create your slides in Markdown - click the *Slides* button to check out the exam
 {{% /callout %}}
 
 Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
+<<<<<<< HEAD
+>>>>>>> 71c95db8cbc5add7a4c817251375343959f22ae5
+=======
 >>>>>>> 71c95db8cbc5add7a4c817251375343959f22ae5
